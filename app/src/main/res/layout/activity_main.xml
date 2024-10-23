@@ -26,4 +26,15 @@
         android:layout_marginTop="16dp"
         android:textSize="24sp"
         android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/proximityImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/directionTextView"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/proximity_image"
+        android:visibility="gone" />
+
 </RelativeLayout>
